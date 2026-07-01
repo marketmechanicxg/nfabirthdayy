@@ -31,8 +31,8 @@ const RECIPIENT_NAME = "Nurul Fadilah Qidah";           // ← GANTI NAMA
    Lalu ganti judul dan nama artis di bawah ini.                  */
 const MUSIC_TRACKS = [
   {
-    title:  "Shape of My Heart",             // ← GANTI JUDUL LAGU
-    artist: "BackstreetBoys",                   // ← GANTI NAMA ARTIS
+    title:  "One Only",             // ← GANTI JUDUL LAGU
+    artist: "Pamungkas",                   // ← GANTI NAMA ARTIS
     src:    "assets/music/song1.mp3",    //   (nama file mp3 — jangan diubah kecuali nama filenya beda)
     cover:  "assets/music/song1.jpeg",   //   (nama file cover — jangan diubah kecuali nama filenya beda)
     startTime: 0,                           // ← MULAI DARI DETIK KE BERAPA
@@ -62,10 +62,10 @@ const GALLERY_PHOTOS = [
    Setiap string adalah satu paragraf.
    Bisa ditambah atau dikurangi paragrafnya.                       */
 const LETTER_PARAGRAPHS = [
-"Happy birthday to my favorite person 🤍 Orang yang sentiasa tahu macam mana nak buat hari-hari i jadi lebih indah dan hati i rasa tenang. Having you in my life is one of the greatest blessings I could ever ask for, dan hari ni i cuma nak celebrate seseorang yang paling istimewa dalam hidup i, iaitu u. Terima kasih sebab hadir dalam hidup i dan buat semuanya terasa lebih bermakna.",
-"Thank you for staying through every version of me. Terima kasih sebab selalu faham i walaupun ada hari-hari yang i sendiri susah nak faham diri i. Thank you for being patient with me, sebab selalu bagi i rasa tenang dan comfort bila i paling perlukan seseorang. Your love has brought so much peace and happiness into my life, and i'll never stop being grateful for that. I hope this birthday brings u countless reasons to smile.",
-"I hope every dream yang u sedang usahakan perlahan-lahan jadi kenyataan, setiap doa yang u bisikkan dimakbulkan, dan setiap langkah yang u ambil sentiasa membawa u kepada perkara-perkara yang indah. U deserve so much happiness, love, and success in your life. Yang paling penting, jangan pernah lupa betapa ramainya orang yang sayangkan u, especially i. Not just today, but every single day.",
-"Thank you for being you, thank you for loving me, dan terima kasih sebab izinkan i menyayangi u sepenuh hati. Happy birthday, my love. Semoga tahun ni dipenuhi dengan rezeki, kebahagiaan, kesihatan, dan semua perkara baik yang u impikan. I love u more than words could ever explain, today, tomorrow, and always. 🤍"
+"Happy birthday to my favorite person 🤍 The person who always knows how to make my days more beautiful and my heart feel at peace. Having you in my life is one of the greatest blessings I could ever ask for, and today I just want to celebrate the most special person in my life, which is you. Thank you for being present in my life and making everything feel so much more meaningful.",
+"Thank you for staying through every version of me. Thank you for always understanding me even on the days when I struggle to understand myself. Thank you for being patient with me, for always giving me peace and comfort when I need someone the most. Your love has brought so much peace and happiness into my life, and I'll never stop being grateful for that. I hope this birthday brings you countless reasons to smile.",
+"I hope every dream you're working toward slowly becomes reality, every prayer you whisper is answered, and every step you take always leads you to beautiful things. You deserve so much happiness, love, and success in your life. And most importantly, never forget how many people love you, especially me. Not just today, but every single day.",
+"Thank you for being you, thank you for loving me, and thank you for allowing me to love you with my whole heart. Happy birthday, my love. May this year be filled with blessings, happiness, health, and all the wonderful things you've ever dreamed of. I love you more than words could ever explain, today, tomorrow, and always. 🤍"
 
 ];
 
@@ -81,25 +81,25 @@ const MEMORIES = [
     depth: "2m",
     year:  "Chapter One",
     title: "where it all started",
-    text:  "that exact moment when everything just clicked, dan tiba-tiba semuanya mulai make so much sense.",
+    text:  "that exact moment when everything just clicked, and suddenly everything started to make so much sense.",
   },
   {
     depth: "8m",
     year:  "Chapter Two",
     title: "the quiet days",
-    text:  "literally cuma kamu, aku, and those lil simple moments yang ternyata ended up meaning everything.",
+    text:  "literally just you, me, and those little simple moments that turned out to mean everything.",
   },
   {
     depth: "16m",
     year:  "Chapter Three",
     title: "through the storms",
-    text:  "we've had our rough patches fr, ada badai dan chaos juga, but somehow kita selalu find our way back to each other.",
+    text:  "we've had our rough patches, storms and chaos too, but somehow we always find our way back to each other.",
   },
   {
     depth: "24m",
     year:  "Chapter Four",
     title: "finding the light",
-    text:  "you're genuinely the brightest part of my whole journey, yang selalu bikin everything feels a little lighter even when things get heavy.",
+    text:  "you're genuinely the brightest part of my whole journey, always making everything feel a little lighter even when things get heavy.",
   },
 ];
 
@@ -109,12 +109,12 @@ const MEMORIES = [
    icon: wave | shell | star | compass | anchor | heart
    text: isi ucapannya                                            */
 const WISHES = [
-  { icon: "wave",    text: "may this year give you all the calm of the ocean, dan sedalam itu juga hati kamu yang selalu penuh dengan kindness, fr." },
-  { icon: "shell",   text: "hope your days stay this bright, kayak sun yang mantul di atas water, and your nights tetap peaceful seperti tide yang pelan-pelan balik ke laut." },
-  { icon: "star",    text: "may every lil wish kamu pelan-pelan come true, exactly when you need it the most, no cap." },
-  { icon: "compass", text: "wherever this year takes you, i hope kamu selalu find your way back to the people who genuinely care and adore you." },
-  { icon: "anchor",  text: "stay grounded, stay grateful, and tbh tetap jadi kamu yang sekarang — beautiful in your own way, always." },
-  { icon: "heart",   text: "happy birthday istg — cheers buat another year penuh memories yang bakal selalu worth keeping." },
+  { icon: "wave",    text: "may this year give you all the calm of the ocean, and just as deep, a heart always full of kindness." },
+  { icon: "shell",   text: "hope your days stay this bright, like the sun reflecting on the water, and your nights just as peaceful as the tide slowly returning to the sea." },
+  { icon: "star",    text: "may every little wish of yours slowly come true, exactly when you need it the most." },
+  { icon: "compass", text: "wherever this year takes you, i hope you always find your way back to the people who genuinely care and adore you." },
+  { icon: "anchor",  text: "stay grounded, stay grateful, and honestly stay true to who you are right now — beautiful in your own way, always." },
+  { icon: "heart",   text: "happy birthday for real — cheers to another year full of memories that will always be worth keeping." },
 ];
 
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
